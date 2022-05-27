@@ -30,7 +30,7 @@
     <div class="panels">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-sm-3">
+                <div class="col-6">
                     <div id="left-panel">
                         Sol
                         <div class="dropdown">
@@ -45,10 +45,10 @@
                                 <button type="submit" class="btn btn-primary btn-sm">Go</button>
                             </form>
                         </div>
-                        <p class="text-secondary earth-date pt-3">Earth date<br/><span th:text="${ earthDate }"></span></p>
+                        <p class="earth-date pt-3">Earth date<br/><span th:text="${ earthDate }"></span></p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-6 col-sm-3">
                     <div id="right-panel">
                         <p th:text="${ roverDesc }" class="fw-lighter"></p>
                     </div>
@@ -84,7 +84,7 @@
 
     <div class="footer">
         <div class="row">
-            <div class="col-4">
+            <div class="col-8 col-sm-4">
                 <div id="credits">
                     <span>
                         <small class="text-secondary">App source: <a href="https://github.com/nunorc/MarsRoverSlideshow" class="link-warning">GitHub</a></small>
@@ -93,7 +93,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="col-4 col-sm-4 d-flex justify-content-center align-items-center">
                 <button id="unmute" class="btn btn-sm btn-dark" onclick="javascript: toggleAudio();">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-mute-fill" viewBox="0 0 16 16">
                         <path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"/>

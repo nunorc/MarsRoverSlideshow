@@ -17,13 +17,13 @@ html, body { height: 100vh; width: 100vw; background-color: black; }
 #left-panel small { font-size: 0.675em; }
 #right-panel {
     color: white;
-    text-shadow: 1px 1px 2px #000;
+    font-weight: 200;
     text-align: right;
     max-width: 300px;
     z-index: 100;
 }
 
-.earth-date { font-size: 12px; line-height: 12px; }
+.earth-date { font-size: 12px; line-height: 12px; color: #d8d7d7; }
 
 .carousel-inner { height: 100vh; width: 100vw; }
 .carousel-item img {
@@ -58,4 +58,10 @@ html, body { height: 100vh; width: 100vw; background-color: black; }
 
 .font-vudotronic {
   font-family: vudotronic;
+}
+
+@media only screen and (max-width: 576px) {
+    .panels { top: 96px; }
+    #avatar { bottom: 3rem; right: -3rem; }
+    #avatar img { max-height: 100px; }
 }
