@@ -10,7 +10,11 @@ exploration programs available [here](https://mars.nasa.gov/mer/).
 
 ## Preview
 
-[![screenshot](screenshot.png "screenshot.png")](http://mars-rover-slideshow.nrc.pt/)
+<p align="center">
+    <a href="http://mars-rover-slideshow.nrc.pt/" rel="nofollow">
+        <img src="screenshot.png" alt="screenshot" title="screenshot" />
+    </a>
+</p>
 
 ## Run Locally
 
