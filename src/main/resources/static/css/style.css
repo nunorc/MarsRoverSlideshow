@@ -1,0 +1,61 @@
+html, body { height: 100vh; width: 100vw; background-color: black; }
+.my-navbar { background-color: #000000c2; font-family: vudotronic; font-size: 24px; }
+.my-navbar a { color: white; }
+
+.panels {
+    position: absolute;
+    top: 72px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+#left-panel {
+    color: white;
+    font-family: vudotronic;
+    z-index: 100;
+}
+#left-panel small { font-size: 0.675em; }
+#right-panel {
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+    text-align: right;
+    max-width: 300px;
+    z-index: 100;
+}
+
+.earth-date { font-size: 12px; line-height: 12px; }
+
+.carousel-inner { height: 100vh; width: 100vw; }
+.carousel-item img {
+  object-position: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+}
+
+.my-bg-color { background-color: #000000c2; }
+
+.my-alert {
+    color: white;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#avatar { position: absolute; bottom: 1rem; right: 1rem; z-index: 100; }
+#avatar img { filter: grayscale(90%); transform: scaleX(-1); }
+
+.footer { position: absolute; bottom: 0; left: 0; right: 0; z-index: 100; height: 52px; background-color: #000000c2; }
+
+#credits { padding-left: 1rem; }
+
+@font-face {
+  font-family: vudotronic;
+  src: url('./Vudotronic-X3A49.ttf');
+}
+
+.font-vudotronic {
+  font-family: vudotronic;
+}
