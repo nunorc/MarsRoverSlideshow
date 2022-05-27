@@ -12,7 +12,7 @@ exploration programs available [here](https://mars.nasa.gov/mer/).
 
 Clone the repository and inside the directory run:
 
-    ./gradlew bootRun
+    $ ./gradlew bootRun
 
 ### Acknowledgements
 
