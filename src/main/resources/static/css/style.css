@@ -61,7 +61,10 @@ html, body { height: 100vh; width: 100vw; background-color: black; }
 }
 
 @media only screen and (max-width: 576px) {
+    .my-navbar { font-size: 22px; }
+    .my-navbar a { font-size: 22px; }
     .panels { top: 96px; }
-    #avatar { bottom: 3rem; right: -3rem; }
+    #right-panel { padding-right: 10px; }
+    #avatar { bottom: 2rem; right: 0; overflow: hidden; width: 24%; }
     #avatar img { max-height: 100px; }
 }
